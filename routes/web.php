@@ -30,6 +30,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/mading', function () {
+    return view('/landing/mading');
+});
+
+Route::get('/book', function () {
+    return view('/landing/book');
+});
+
+
 Route::group(['middleware' => ["guest"]], function(){
     Route::get("/login", [LoginController::class, "login"]);
     Route::post("/login", [LoginController::class, "post_login"]);

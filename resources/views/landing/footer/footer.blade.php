@@ -11,10 +11,9 @@
                 <div class="col-12 col-md-12 col-lg-7">
                     <ul class="list-unstyled footer-navigation">
                         <li><a href="javascript:void(0)">Home</a></li>
-                        <li><a href="javascript:void(0)">Features</a></li>
-                        <li><a href="javascript:void(0)">Video </a></li>
-                        <li><a href="javascript:void(0)">Services</a></li>
-                        <li><a href="javascript:void(0)">Testimonials</a></li>
+                        <li><a href="javascript:void(0)">Mading</a></li>
+                        <li><a href="javascript:void(0)">Ebook </a></li>
+                        <li><a href="javascript:void(0)">Kategori Ebook</a></li>
                     </ul>
                 </div>
 
