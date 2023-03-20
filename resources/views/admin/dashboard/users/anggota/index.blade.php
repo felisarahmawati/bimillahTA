@@ -50,7 +50,8 @@
                                 <th>Username</th>
                                 <th class="text-center">No. Telepon</th>
                                 <th class="text-center">Jenis Kelamin</th>
-                                <th>Alamat</th>
+                                <th class="text-center">Alamat</th>
+                                <th class="text-center">Tipe Anggota</th>
                                 <th class="text-center">Status</th>
                                 <th class="text-center">Aksi</th>
                             </tr>
@@ -88,13 +89,11 @@
                         <label for="username"> Username </label>
                         <input type="username" class="form-control" name="username" id="username" placeholder="Masukkan Username">
                     </div>
+                    <div class="form-group">
+                        <label for="nomer_telepon"> No. Telepon </label>
+                        <input type="text" class="form-control" name="nomer_telepon" id="nomer_telepon" placeholder="Masukkan No. Telepon">
+                    </div>
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="nomer_telepon"> No. Telepon </label>
-                                <input type="text" class="form-control" name="nomer_telepon" id="nomer_telepon" placeholder="Masukkan No. Telepon">
-                            </div>
-                        </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="gender"> Jenis Kelamin </label>
@@ -102,6 +101,16 @@
                                     <option value="">- Pilih -</option>
                                     <option value="L">Laki - Laki</option>
                                     <option value="P">Perempuan</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="tipe_anggota"> Tipe Anggota </label>
+                                <select name="tipe_anggota" class="form-control" id="tipe_anggota">
+                                    <option value="">- Pilih -</option>
+                                    <option value="S">Siswa-siswi</option>
+                                    <option value="G">Guru TU</option>
                                 </select>
                             </div>
                         </div>

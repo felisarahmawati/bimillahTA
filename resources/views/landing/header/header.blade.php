@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CSource+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
         rel="stylesheet" />
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="assets/css/vendor.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
 

@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-6 col-md-6 col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/ebook/1.jpg" class="card-img-top" alt="...">
+                        <a href=""><img src="assets/images/ebook/1.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h6 class="card-text text-center">
                                 Heart String<br>
@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-6 col-md-6 col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/ebook/2.jpg" class="card-img-top" alt="...">
+                        <a href=""><img src="assets/images/ebook/2.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h6 class="card-text text-center">
                                 Online to In Person<br>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-6 col-md-6 col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/ebook/3.jpg" class="card-img-top" alt="...">
+                        <a href=""><img src="assets/images/ebook/3.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h6 class="card-text text-center">
                                 Modern Spaces<br>
@@ -51,9 +51,9 @@
                 </div>
                 <div class="col-6 col-md-6 col-lg-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/ebook/5.jpg" class="card-img-top" alt="...">
+                        <a href=""><img src="assets/images/ebook/5.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
-                          <h6 class="card-text text-center">
+                            `<h6 class="card-text text-center">
                                 Algoritma<br>
                                 <small class="text-muted">By Kiara Novita</small>
                             </h6>
@@ -61,9 +61,8 @@
                     </div>
                 </div>
             </div>
-    
+
         </div>
-    
     </section>
 </main>
 

@@ -13,6 +13,7 @@ use App\Http\Controllers\KatalogBukuController;
 use App\Http\Controllers\Petugas\PetugasController;
 use App\Http\Controllers\Petugas\Account\ProfilSayaController;
 use App\Http\Controllers\Account\ProfilSayaController as AccountProfilSayaController;
+use App\Http\Controllers\Admin\Autentikasi\LoginController as AutentikasiLoginController;
 use App\Http\Controllers\Petugas\Account\AkunController;
 use App\Http\Controllers\Petugas\Account\AnggotaController;
 
@@ -38,11 +39,19 @@ Route::get('/book', function () {
     return view('/landing/book');
 });
 
+Route::get('/admin/akun/login', function () {
+    return view('/admin/akun/login');
+});
 
 Route::group(['middleware' => ["guest"]], function(){
     Route::get("/login", [LoginController::class, "login"]);
     Route::post("/login", [LoginController::class, "post_login"]);
 });
+
+// Route::group(['middleware' => ["admin"]], function(){
+//     Route::get("/login", [AutentikasiLoginController::class, "login"]);
+//     Route::post("/login", [AutentikasiLoginController::class, "post_login"]);
+// });
 
 Route::controller(ProfilSayaController::class)->group(function() {
     Route::get("/admin/dashboard/users/profil_saya/v_index", 'index');
